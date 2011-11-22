@@ -208,5 +208,5 @@ Devise.setup do |config|
   # end
 
   config.rpx_application_name = "hortitude"
-  RPXNow.api_key = ""
+  RPXNow.api_key = APP_CONFIG['secrets']['janrain_api_key']
 end
