@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+gem 'devise'
+gem 'devise_rpx_connectable'
+
 gem 'rails', '3.1.1'
 
 # Bundle edge Rails instead:

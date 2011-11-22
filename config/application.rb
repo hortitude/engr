@@ -44,5 +44,11 @@ module Starterkit
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+
+    # Disable db access during rake assets:precompile
+    # (instructions from devise and from: http://batsov.com/articles/2011/10/30/deploying-rails31-apps-on-celadon-cedar/)
+    config.assets.initialize_on_precompile = false
+
   end
 end
